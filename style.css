@@ -10,3 +10,22 @@ h1 {
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: 'Caveat Brush', sans-serif /* Başlıkta kullanılan yazı tipi ailesi */
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.background-container {
+    background-image: url('C:\Users\zasyya\new_tie\sword.jpeg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    opacity: 50;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Adjust text color for better visibility */
+}
